@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+    <title>Hassan Mohamed</title>
+  </head>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Clear+Sans:wght@400;700&family=The+Seasons+Alter:wght@400;700&display=swap');
+    #landing{
+        background-color: #AD9C91;
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        height: 600PX; 
+    }
+    #about-me{
+        padding: 25PX 25PX 25PX 25PX;
+        background-color: #FFFCF4;
+        height: 700px;
+        weight: 100%;
+        margin-top:10px;
+    }
+    #personal-skill{
+        padding: 25PX 25PX 25PX 25PX;
+        background-color: #FFFCF4;
+        height: 700px;
+        weight: 100%;
+        margin-top:10px;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        gap:30%;
+        font-family: 'the seasons',Regular;
+        color:white;
+        align-items: center;
+
+    }
+    .container>div>h3{
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+    .container>div>h1{
+        font-size: 3.2rem;
+        font-weight: 700;
+    }
+    .container>div>p{
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+    .contact-button{
+        display: flex;
+        justify-content: center;
+        border: white solid 1px;
+        height: 5.5vh;
+        width: 300PX;
+        margin-top: 40PX;
+        background-color: #AD9C91;
+        border-radius: 300px;
+        color: white;
+        font-family:'clear sans',Regular;
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+    .contact-button:hover{
+        background-color: white;
+        color: #AD9C91;
+        border: white solid 5px;
+    }
+    .profile-image{
+    height:400PX;
+    border-radius:50% ;
+    border:white solid 8px;
+    }
+    .about{ 
+        height: 100%;
+        width: 100%;
+        background-color: #FFFCF4;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        padding: 20vh 5vh 10vh 5vh;
+        border: 1px solid black;
+    }
+    .about>h1{
+        font-family:'Baskerville',Regular;
+        font-size: 3.2rem;
+        font-weight: 200;
+    }
+    .me>p{
+        justify-content: center;
+        font-family:'Public Sans',Regular;
+        font-size: 1.3rem;
+        font-weight: 300;
+    }
+    .personal{
+        height: 100%;
+        width: 100%;
+        background-color: #FFFCF4;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        padding: 5vh 5vh 10vh 5vh;
+        border: 1px solid black;
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 2fr 2fr 1fr;
+        border: 1px solid black;
+
+    }
+    .card-1{
+        display: flex;
+        justify-content: center;
+        border: 1px solid black;
+    }
+  </style>
+
+  <body>
+
+<section id="landing">
+   <div class="container">
+        <div class="text-buttom">
+            <h3>Hassan Mohamed</h3>
+            <h1>Software Engineer</h1>
+            <p>make a high quality projects is me top priority.</p>
+            <button class="contact-button">Contact Me</button>
+        </div>
+
+        <div>
+            <img class="profile-image" src="/images/my-photo.JPG" alt="Hassan Mohamed"></div>
+        </div>  
+    </div> 
+
+</section>
+
+<section id="about-me">
+    <div class="about">
+        <h1>About Me</h1>
+     <div class="me">   <p>Welcome to my portfolio! I'm Hassan Mohamed, a Computer Engineering student with a passion for high-quality projects. I've worked on various desktop apps and websites and love taking on software competitions to push my limits. Let's explore my journey together!</p> </div>
+    
+    </div>
+</section>    
+
+<section id="personal-skill">
+    <div class="personal">
+        <h1>Personal Skill</h1>
+        <div class="cards">
+            <div clas="card-1">
+                <h2>Education</h2>
+                <p>Computer engineering student  at misr for science and technology university,</p>
+            </div>
+            <div class="card-2">
+                <h2>Skills</h2>
+                <p>Web development 
+                    descktop application
+                     database sql</p>
+            </div>
+            <div class="card-3">
+                <h2>Experiance</h2>
+                <p>Work as a freelancer in web applications and desktop application </p>
+            </div>
+        </div>
+    </div>
+    
+
+</section>
+    
+<section id="projects">
+    </section>
+    
+<section id="contact-me">
+
+</section>   
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
